@@ -1,0 +1,8 @@
+[2021-11-12 04:06:38,783] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-11-12 04:06:38,791] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2021-11-12 04:06:40,727] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-11-12 04:06:40,738] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2021-11-12 04:06:42,122] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-11-12 04:06:42,123] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2021-11-12 04:06:39,975] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2021-11-12 04:06:39,976] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
