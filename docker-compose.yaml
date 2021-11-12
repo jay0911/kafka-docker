@@ -17,6 +17,7 @@ services:
       context: .
     volumes:
     - ./config/kafka-1/server.properties:/kafka/config/server.properties
+    - ./data/kafka-1/:/tmp/kafka-logs/
     depends_on:
     - zookeeper-1
     networks:
@@ -30,6 +31,7 @@ services:
       context: .
     volumes:
     - ./config/kafka-2/server.properties:/kafka/config/server.properties
+    - ./data/kafka-2/:/tmp/kafka-logs/
     depends_on:
     - zookeeper-1
     networks:
@@ -43,6 +45,7 @@ services:
       context: .
     volumes:
     - ./config/kafka-3/server.properties:/kafka/config/server.properties
+    - ./data/kafka-3/:/tmp/kafka-logs/
     depends_on:
     - zookeeper-1
     networks:
